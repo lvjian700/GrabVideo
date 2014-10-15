@@ -4,7 +4,7 @@
 
 ##依赖
 
-* node.js
+* node.js: <http://nodejs.org/>
 
 ##使用
 
