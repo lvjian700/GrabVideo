@@ -3,14 +3,13 @@
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-	"start": "phantomjs pptv.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "author": "lvjian700",
   "license": "MIT",
   "dependencies": {
     "cheerio": "^0.17.0",
-    "q": "^1.0.1"
+    "phantom": "^0.6.6",
+    "q": "^1.0.1",
+    "underscore": "^1.7.0"
   }
 }

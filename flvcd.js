@@ -1,5 +1,4 @@
 var cheerio = require('cheerio');
-var q = require('Q');
 var request = require('request');
 
 
