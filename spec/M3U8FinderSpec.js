@@ -7,7 +7,7 @@ describe('M3U8Finder.js', function() {
 	var reg = /^http:\/\/web-play.pptv.com\/web-m3u8-\d*\.m3u8\?type=m3u8\.web.\pad&playback=0&kk=.*&o=v\.pptv\.com$/
 
 	it('should find pptv m3u8 video stream', function(done) {
-		this.timeout(5000);
+		this.timeout(20000);
 		finder.find(url, function(videoSrc) {
 			console.log(videoSrc);
 			expect(reg.test(videoSrc))
