@@ -1,6 +1,5 @@
 var cheerio = require('cheerio');
 var request = require('request');
-var Q = require('q');
 var util = require('util');
 
 
