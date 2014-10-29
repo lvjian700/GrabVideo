@@ -11,10 +11,16 @@
 	git clone https://github.com/lvjian700/GrabVideo.git
 	cd GrabVideo
 	npm install
-	node index.js
-	##或者
-	node index.js http://k.youku.com/player/getFlvPath/sid/941329402768112a60316_00/st/flv/fileid/0300020100543D529217E5056AC6C7A2E0491F-982D-B6CB-A1E0-9442438F3992?K=f9f67f77a645ba692829ef26&ctype=12&ev=1&oip=1887191773&token=1580&ep=eyaVGUuEUs4C4iXXiT8bNirid3YJXP4J9h%2BFg9JjALshTOvLnDzYxZy3O%2FpCE%2F9oASR1F5rz3tDjY0FiYflLqxwQrUjbS%2FqR%2F4Xj5aRXwJIEZRFAccTetlSfRjjx
-	
+	npm test
+	npm start
+
+##测试环境
+
+访问如下连接,看是否成功:	
+<http://localhost:3000/m3u8/http%3A%2F%2Fv.pptv.com%2Fshow%2Fg1W0MpoAcK4Rjicc.html>	
+
+
+
 
 	
 

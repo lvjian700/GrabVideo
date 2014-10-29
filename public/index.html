@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>Find video source</title>
+	<link rel="stylesheet" href="/css/main.css" type="text/css" media="screen" charset="utf-8">
+</head>
+<body>
+<h2>服务器接口地址:</h2>
+<p>
+GET - http://[hostname]:3000/m3u8/:encodedURL
+</p>
+<h2>输入PPTV直播源地址:</h2>
+<p>
+	<input id="urlField" type="text" name="url" 
+		value="http://v.pptv.com/show/ialy7OaEHd7UYlv4.html" />
+	<button id="btnFind">Go</button>
+</p>
+<h3>将下面的连接地址复制到Safari中进行播放:</h3>
+<p id="ret"></p>
+
+<script src="http://upcdn.b0.upaiyun.com/libs/jquery/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/app.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

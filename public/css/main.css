@@ -1,0 +1,10 @@
+input {
+	width: 480px;
+	height: 30;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+#ret {
+	padding: 12px;
+}
