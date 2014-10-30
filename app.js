@@ -1,8 +1,10 @@
 var express = require('express');
 var app = express();
+var timeout = require('connect-timeout');
 
 var finder = require('./finders/M3U8Finder').finder;
 
+app.use(timeout('15s'));
 app.use(express.static('public'));
 
 app.get('/', function(req, res) {

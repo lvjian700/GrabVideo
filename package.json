@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-	  "start": "PORT=3000 node app.js",
-	  "test": "mocha ./spec/*Spec.js"
+    "start": "PORT=3000 node app.js",
+    "test": "mocha ./spec/*Spec.js"
   },
   "author": "lvjian700",
   "license": "MIT",
   "dependencies": {
     "cheerio": "^0.17.0",
+    "connect-timeout": "^1.4.0",
     "express": "^4.10.0",
     "phantom": "^0.6.6",
     "underscore": "^1.7.0"
