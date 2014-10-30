@@ -16,7 +16,7 @@ $(function() {
 			failure: function(error) {
 				that.text('Go');
 			},
-			timeout: 5000
+			timeout: 15000
 		});
 	});		
 });
