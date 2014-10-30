@@ -16,6 +16,9 @@ app.get('/m3u8/:url', function (req, res) {
 
 	console.log('find...');
 	finder.find(decodedURL, function(videoSrc) {
+		console.log('the video src found');
+		console.log(videoSrc);
+
 		res.json({
 			m3u8: videoSrc
 		});
