@@ -4,5 +4,5 @@ if [ ! -e "`which forever`" ]; then
 	npm install forever -g
 fi
 
-forever stop app.js
+sudo forever stop app.js
 
