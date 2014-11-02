@@ -24,6 +24,8 @@ app.get('/m3u8/:url', function (req, res) {
 		res.json({
 			m3u8: videoSrc
 		});
+	}, function(err) {
+		
 	});		
 });
 
