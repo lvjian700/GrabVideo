@@ -65,6 +65,7 @@ function openVideoPage (context) {
 
 	context.page.open(context.videoPageUrl, function(status) {
 		if (status !== 'success') {
+			console.log(status);
 			open.reject(new Error(util.format('can not open url: %s', context.videoPageUrl)));
 			return;
 		}
