@@ -8,11 +8,14 @@ describe('M3U8Finder.js', function() {
 
 	it('should find pptv m3u8 video stream', function(done) {
 		this.timeout(20000);
+		
 		finder.find(url, function(videoSrc) {
 			console.log(videoSrc);
 			expect(reg.test(videoSrc))
 				.to.be.true;
 			done();	
+		}, function(error) {
+			done(error);	
 		});			
 	});
 });
