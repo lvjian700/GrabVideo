@@ -5,6 +5,8 @@
 ##依赖
 
 * node.js: <http://nodejs.org/>
+* phantomjs: <https://github.com/ariya/phantomjs>
+
 
 ##使用
 
